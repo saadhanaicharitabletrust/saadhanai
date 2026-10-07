@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:GMT+5:30
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20250323T161500
+DTEND;TZID=Asia/Kolkata:20250323T170000
+DTSTAMP:20250322T080741Z
+ORGANIZER;CN=Zedexel Software Solutions:mailto:zedexeltech@gmail.com
+UID:0raqgqo8hqkq0trsc2hhn42948@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Zedexel Software Solutions;X-NUM-GUESTS=0:mailto:zedexeltech@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=aadiprakash4319@gmail.com;X-NUM-GUESTS=0:mailto:aadiprakash4319@gmail.c
+ om
+X-GOOGLE-CONFERENCE:https://meet.google.com/dvz-toyz-sus
+X-MICROSOFT-CDO-OWNERAPPTID:614962155
+CREATED:20250322T080739Z
+DESCRIPTION:<b>Booked by</b>\nAadi Prakash\naadiprakash4319@gmail.com\n<br>
+ The interview is just to get to know the candidates better. It's more perso
+ nal and less technical so worry not !!!\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nJoin with Google M
+ eet: https://meet.google.com/dvz-toyz-sus\n\nLearn more about Meet at: http
+ s://support.google.com/a/users/answer/9282720\n\nPlease do not edit this se
+ ction.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20250322T080741Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:ZedeXeL Front End Intern Interview (Aadi Prakash)
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
