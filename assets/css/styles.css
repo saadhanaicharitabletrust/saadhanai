@@ -1,0 +1,106 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root{
+    --primary:#014C91;
+    --secondary:#FBF9E4;
+    --font-quicksand: "Quicksand", sans-serif;
+    --font-prociono:"Prociono", serif;
+    --font-nunito:"Nunito", sans-serif;
+  }
+.hero-h1{
+  font-family:var(--font-prociono);
+}
+.tax{
+  font-family: var(--font-nunito);
+}
+.hero-divider{
+  background: linear-gradient(to right,#bf953f,#fcf6ba,#b38728,#fbf5b7,#aa771c);
+  /* background-image: linear-gradient(
+    160deg,
+    #a54e07,
+    #b47e11,
+    #fef1a2,
+    #bc881b,
+    #a54e07
+  ); */
+}
+.hero-head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero-quote{
+  font-family: var(--font-prociono);
+  letter-spacing:3px;
+}
+.golden-bg{
+  background: linear-gradient(to right,#bf953f,#fcf6ba,#fbf5b7,#bf953f);
+  color: rgb(121, 103, 3);
+  /* font-size: 1rem; */
+}
+.image-button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 40px;
+  background: linear-gradient(to right,#bf953f,#fcf6ba,#b38728,#fbf5b7,#aa771c);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 0.8em;
+  color: rgb(121, 103, 3);
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  transition-duration: 3s;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.144);
+  background-size: 200% 200%;
+}
+.image-button:hover {
+  transform: scale(0.95);
+  transition-duration: 3s;
+  animation: gradient 5s ease infinite;
+  background-position: right;
+}
+
+.image-button-secondary {
+  width: 150px;
+  height: 40px;
+  border: 2px solid #bf953f;  /* Use a border to give it a more subtle look */
+  border-radius: 40px;
+  background: transparent;  /* No background gradient for a lighter feel */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 0.8em;
+  color: #bf953f;  /* Use the same color as the border */
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  transition-duration: 0.3s; /* A faster transition for a more subtle hover effect */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);  /* Lighter shadow */
+}
+
+.image-button-secondary:hover {
+  transform: scale(0.98);  /* Slightly smaller scale for subtle interaction */
+  background-color: rgba(191, 149, 63, 0.1);  /* Add a light background on hover */
+  transition-duration: 0.3s;
+}
+
+.logoIcon path {
+  fill: rgb(121, 103, 3);
+}
+
+
+.about-img{
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.4));
+}

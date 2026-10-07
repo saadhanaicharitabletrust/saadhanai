@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 20px;
+	color: #000000;
+}
+
+.line_vertical {
+	background-image:url(../images/line_vertical.jpg);
+	background-repeat:repeat-y;
+	background-position:right;
+	}
+	
+.footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 20px;
+	color: #000000;
+}
+
+a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 20px;
+	color: #000000;
+	text-decoration:none;
+}
+a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 20px;
+	color: #000000;
+}
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 20px;
+	color: #636;
+	text-decoration: underline;
+}
